@@ -9,6 +9,7 @@ import java.util.List;
 @Component // 不要忘记添加，不要忘记添加
 public class DeptClientServiceFallbackFactory  implements FallbackFactory<DeptClientService>
 {
+//test;
 	private int testgit;
 	@Override
 	public DeptClientService create(Throwable throwable)
